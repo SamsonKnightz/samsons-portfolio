@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
 }
 .Container > header {
-    padding: 30px;
+    padding: 20px;
     background-color: grey;
     color: aliceblue;
     display: flex;
@@ -15,7 +15,7 @@ body {
 }
 
 nav a {
-    margin-left: 20px;
+    margin-left: 16px;
     color: aliceblue;
     text-decoration: none;
 }
@@ -29,4 +29,18 @@ section {
     padding: 20px;
     font-size: 32px;
     line-height: 48px;
+}
+
+#work {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    width: 50%;
+    padding: 20px;
+}
+
+.featured {
+    width: 100%;
 }
