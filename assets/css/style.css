@@ -1,5 +1,16 @@
 body {
-    background-color: green;
+    background-color: #5E807F;
+}
+
+h1 {
+    font-size: 48px;
+}
+h2 {
+    font-size: 40px;
+}
+
+#About {
+    
 }
 
 .Container {
@@ -8,21 +19,22 @@ body {
 }
 .Container > header {
     padding: 20px;
-    background-color: grey;
-    color: aliceblue;
+    background-color: #17B890;
+    color: white;
     display: flex;
     justify-content: space-between;
 }
 
 nav a {
     margin-left: 16px;
-    color: aliceblue;
+    color: white;
     text-decoration: none;
+    font-size: 20px;
 }
 
 nav a:hover {
     text-decoration: underline;
-    color: red;
+    color: #841C26;
 }
 
 section {
@@ -31,7 +43,7 @@ section {
     line-height: 48px;
 }
 
-#work {
+#Work {
     display: flex;
     flex-wrap: wrap;
 }
@@ -40,7 +52,27 @@ article {
     width: 50%;
     padding: 20px;
 }
+article img {
+    width: 100%;
+}
 
 .featured {
     width: 100%;
+}
+
+footer {
+    padding: 20px;
+    background-color: #17B890;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+footer a {
+    margin-left: 16px;
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: #841C26;
 }
