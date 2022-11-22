@@ -5,5 +5,28 @@ body {
 .Container {
     max-width: 1140px;
     margin: 0 auto;
-    background-color: bisque;
+}
+.Container > header {
+    padding: 30px;
+    background-color: grey;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    margin-left: 20px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+section {
+    padding: 20px;
+    font-size: 32px;
+    line-height: 48px;
 }
