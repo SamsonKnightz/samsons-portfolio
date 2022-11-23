@@ -5,20 +5,27 @@ body {
 
 h1 {
     font-size: 48px;
-    color: #313638;
+    color: crimson;
     text-decoration: underline;
 }
 
 h2 {
     text-align: left;
     font-size: 40px;
-    color: white;
+    color: crimson;
     margin-top: 20px;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 h3 {
     text-align: center;
-    color: white;
+    color: #02C39A;
 }
 
 .about-detail {
@@ -65,7 +72,7 @@ nav a {
 
 nav a:hover {
     text-decoration: underline;
-    color: red;
+    color: crimson;
 }
 
 section {
@@ -82,7 +89,7 @@ section {
 
 #Work a:hover {
     border-radius: 5px;
-    border-color: red;
+    border-color: crimson;
 }
 
 article {
@@ -113,7 +120,7 @@ footer a {
 }
 footer a:hover {
     text-decoration: underline;
-    color: red;
+    color: crimson;
 }
 
 @media screen and (max-width: 768px) {
