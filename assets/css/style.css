@@ -1,5 +1,6 @@
 body {
     background-color: #313638;
+    font-family: monospace;
 }
 
 h1 {
@@ -148,10 +149,20 @@ nav a:first-of-type {
 #About-Me {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
-#About > img {
-    width: 50%;
+.about-detail img {
+    box-sizing: border-box;
+    width: 30%;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h3 {
+    font-size:26px ;
 }
 
 }
